@@ -4,15 +4,18 @@
       <NavigationButton ios:visibility="collapsed" icon="res://menu" tap="onDrawerButtonTap"></NavigationButton>
       <ActionItem icon="res://navigation/menu" android:visibility="collapsed" tap="onDrawerButtonTap" ios.position="left">
       </ActionItem>
-      <Label class="action-bar-title" text="Settings"></Label>
+      <Label class="action-bar-title" text="Healed In Spirit"></Label>
     </ActionBar>
 
-  <GridLayout>
-    <label text="ADHESIVES" row="0" col="0" class="h1"></label>
-    <label text="A category of things that all have one thing in common, they stick." row="1" col="0"></label>
-    <label row="2" col="0" class="h3" text="Symptoms"></label>
-    <label row="3" col="0" text="Most often the symptom of a rope or cord is a lack of movement and freedom in our life. And the most common symptom of a label is a negative message about our identity."></label>
+  <StackLayout style="padding: 50px 40px 30px 40px;">
+    <Label text="Adhesives" class="h2 font-weight-bold"></Label>
+    <Label text="A category of things that all have one thing in common, they stick." textWrap="true"></Label>
+    <Label class="hr-dark" style="margin-bottom: 30px;"></Label>
+    <Label class="h3 font-weight-bold" text="Symptoms"></Label>
+    <Label textWrap="true" text="Most often the symptom of a rope or cord is a lack of movement and freedom in our life. And the most common symptom of a label is a negative message about our identity."></Label>
     
-  </GridLayout>
+  
+  
+  </StackLayout>
 
 </Page>

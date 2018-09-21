@@ -1,0 +1,12 @@
+<Page navigatingTo="onNavigatingTo" class="page" xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar class="action-bar">
+      <NavigationButton ios:visibility="collapsed" icon="res://menu" tap="onDrawerButtonTap"></NavigationButton>
+      <ActionItem icon="res://navigation/menu" android:visibility="collapsed" tap="onDrawerButtonTap" ios.position="left">
+      </ActionItem>
+        <Label class="action-bar-title" text="Healed In Spirit"></Label>
+    </ActionBar>
+
+  <StackLayout style="padding: 50px 40px 30px 40px;">
+    <Label text="Poison" class="h2 font-weight-bold"></Label>
+    </StackLayout>
+</Page>

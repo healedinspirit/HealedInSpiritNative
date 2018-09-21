@@ -4,11 +4,14 @@ import { RadSideDrawer } from "nativescript-ui-sidedrawer";
 import { NavigatedData, Page } from "ui/page";
 import { Button } from 'tns-core-modules/ui/button';
 
-import { AdhesivesViewModel } from "./adhesives-view-model";
+import { CallusViewModel } from "./callus-view-model";
 
+/* ***********************************************************
+* Use the "onNavigatingTo" handler to initialize the page binding context.
+*************************************************************/
 export function onNavigatingTo(args: EventData) {
     const page = <Page>args.object;
-    page.bindingContext = new AdhesivesViewModel();
+    page.bindingContext = new CallusViewModel();
 }
 
 export function onDrawerButtonTap(args: EventData) {

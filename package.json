@@ -4,7 +4,7 @@
   "author": "Healed In Spirit",
   "homepage": "https://www.facebook.com/healedinspirit/",
   "nativescript": {
-    "id": "healingnations.healedinspirit",
+    "id": "healingthenations.healedinspirit",
     "tns-android": {
       "version": "4.2.0"
     },
@@ -17,10 +17,11 @@
     "lint": "tslint \"app/**/*.ts\""
   },
   "dependencies": {
+    "nativescript-social-share": "^1.5.1",
     "nativescript-theme-core": "~1.0.4",
     "nativescript-ui-sidedrawer": "~4.2.0",
-    "tns-core-modules": "~4.2.0",
-    "rxjs": "~6.2.0"
+    "rxjs": "~6.2.0",
+    "tns-core-modules": "~4.2.0"
   },
   "devDependencies": {
     "nativescript-dev-sass": "~1.6.0",

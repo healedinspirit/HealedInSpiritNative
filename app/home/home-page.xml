@@ -22,11 +22,13 @@
         <Label class="action-bar-title" text="Healed In Spirit"></Label>
     </ActionBar>
 
+    <ScrollView orientation="vertical">
     <StackLayout class="page-content">
-      <Image src="~/images/logo-vertical.png" style="height: 150px; margin: 40px auto 40px auto;"></Image>
-      <Button text="QUICK START" route="start/start-page" title="Start" tap="onNavigationItemTap" style="width: 200px;" class="btn btn-primary btn-rounded-lg btn-active"></Button>
-      <Button text="LEARN MORE" route="intro/intro-page" title="Introduction" tap="onNavigationItemTap" style="width: 200px;" class="btn btn-primary btn-outline btn-active btn-rounded-lg"></Button>
-      <Button text="Share" tap="Share" style="width: 200px;" class="btn btn-primary btn-outline btn-active btn-rounded-lg"></Button>
-      <Button text="Terms" route="about/about-page" title="About" tap="onNavigationItemTap" style="width: 200px;" class="btn btn-primary btn-outline btn-active btn-rounded-lg"></Button>
+      <Image src="~/images/logo-vertical.png" style="height: 400px; margin: 40px auto 40px auto;"></Image>
+      <Button text="QUICK START" route="start/start-page" title="Start" tap="onNavigationItemTap" style="width: 400px;" class="btn btn-primary btn-rounded-lg btn-active"></Button>
+      <Button text="LEARN MORE" route="intro/intro-page" title="Introduction" tap="onNavigationItemTap" style="width: 400px;" class="btn btn-primary btn-outline btn-active btn-rounded-lg"></Button>
+      <Button text="Share" tap="Share" style="width: 400px;" class="btn btn-primary btn-outline btn-active btn-rounded-lg"></Button>
+      <Button text="Terms" route="about/about-page" title="About" tap="onNavigationItemTap" style="width: 400px;" class="btn btn-primary btn-outline btn-active btn-rounded-lg"></Button>
     </StackLayout>
+    </ScrollView>
 </Page>

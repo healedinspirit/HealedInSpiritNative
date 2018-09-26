@@ -6,7 +6,9 @@
         <Label class="action-bar-title" text="Healed In Spirit"></Label>
     </ActionBar>
 
+    <ScrollView orientation="vertical">
   <StackLayout style="padding: 50px 40px 30px 40px;">
-    <Label text="Quick Start" class="h2 font-weight-bold"></Label>
+    <Label class="h2 font-weight-bold base-font" text="Quick Start"></Label>
     </StackLayout>
+    </ScrollView>
 </Page>

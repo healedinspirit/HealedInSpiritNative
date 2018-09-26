@@ -6,7 +6,9 @@
         <Label class="action-bar-title" text="Healed In Spirit"></Label>
     </ActionBar>
 
+    <ScrollView orientation="vertical">
   <StackLayout style="padding: 50px 40px 30px 40px;">
     <Label text="Learn More" class="h2 font-weight-bold"></Label>
     </StackLayout>
+    </ScrollView>
 </Page>

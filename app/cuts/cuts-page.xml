@@ -6,7 +6,19 @@
         <Label class="action-bar-title" text="Healed In Spirit"></Label>
     </ActionBar>
 
+    <ScrollView orientation="vertical">
   <StackLayout style="padding: 50px 40px 30px 40px;">
     <Label text="Cuts" class="h2 font-weight-bold"></Label>
+    <Label textWrap="true" text="Caption"></Label>
+    <Label class="hr-dark" style="margin-bottom: 30px;"></Label>
+    <Label class="h3 font-weight-bold" text="Symptoms"></Label>
+    <Label textWrap="true" text="blah blah blah"></Label>
+    <Label class="h3 font-weight-bold" text="Treatment"></Label>
+    <Label textWrap="true" text="blah blah blah"></Label>
+    <Label class="h3 font-weight-bold" text="References"></Label>
+    <Label textWrap="true" text="blah blah blah"></Label>
+    <Label class="h3 font-weight-bold" text="Detail"></Label>
+    <Label textWrap="true" text="blah blah blah"></Label>
     </StackLayout>
+    </ScrollView>
 </Page>

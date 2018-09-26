@@ -7,15 +7,28 @@
       <Label class="action-bar-title" text="Healed In Spirit"></Label>
     </ActionBar>
 
-  <StackLayout style="padding: 50px 40px 30px 40px;">
+    <ScrollView orientation="vertical">
+  <StackLayout class="detail-container">
     <Label text="Adhesives" class="h2 font-weight-bold"></Label>
-    <Label text="A category of things that all have one thing in common, they stick." textWrap="true"></Label>
-    <Label class="hr-dark" style="margin-bottom: 30px;"></Label>
+    <Label textWrap="true" text="A category of things that all have one thing in common, they stick."></Label>
+    <Label class="hr-dark detail-hr"></Label>
     <Label class="h3 font-weight-bold" text="Symptoms"></Label>
     <Label textWrap="true" text="Most often the symptom of a rope or cord is a lack of movement and freedom in our life. And the most common symptom of a label is a negative message about our identity."></Label>
-    
-  
-  
+    <Label class="h3 font-weight-bold" text="Treatment"></Label>
+    <Label textWrap="true" text="The treatment for ropes or cords is to cut them away. And the treatment for labels or curses is to loosen the adhesive with heat. Allow Jesus to administer healing to you by asking this series of questions:"></Label>
+    <Label textWrap="true" class="detail-treatment-item" text="Jesus, please cut away anything that is an unhealthy rope or cord."></Label>
+    <Label textWrap="true" class="detail-treatment-item" text="Please remove any labels or curses with your fire."></Label>
+    <Label textWrap="true" class="detail-treatment-item" text="What lie was that injury trying to tell me?"></Label>
+    <Label textWrap="true" class="detail-treatment-item" text="What truth do you want to replace that lie with?"></Label>
+    <Label class="h3 font-weight-bold" text="References"></Label>
+    <Label textWrap="true" text="'Make every effort to keep the unity of the Spirit through the bond of peace.' Ephesians 4:3"></Label>
+    <Label textWrap="true" text="'His own iniquities entrap the wicked man, and he is caught in the cords of his sin.' Proverbs 5:22"></Label>
+    <Label textWrap="true" text="'Like a fluttering sparrow or a darting swallow, an undeserved curse does not come to rest.' Proverbs 26:2"></Label>
+    <Label class="h3 font-weight-bold" text="Detail"></Label>
+    <Label textWrap="true" text="Adhesives are a category of various kinds of things that all have one thing in common, they stick. Proverbs 5:22 talks about a situation where people get stuck. It says 'the cords of their sins hold them fast'. Ropes are one kind of thing that can get us stuck."></Label>
+    <Label textWrap="true" text="Another sticky kind of thing is a label or sticker. A label is an adhesive piece of paper or plastic that lets us write things on the front. We often use the word label as a verb, to 'label' something. The bible uses the word 'curse' to mean the same thing. Proverbs 26:2 says 'Like a fluttering sparrow or a darting swallow, and undeserved curse does not come to rest'. If a curse comes to rest, it stays...or sticks."></Label>
+    <Label textWrap="true" text="What would someone want to achieve by tying something? To prevent it from moving. And the goal of sticking a label on something is to help identify it. The way to respond to things that tie us up is to cut them. And the way to remove things like labels and stickers is to heat the adhesive and loosen it's grip."></Label>
   </StackLayout>
+    </ScrollView>
 
 </Page>

@@ -20,19 +20,19 @@ http://docs.telerik.com/devtools/nativescript-ui/Controls/NativeScript/SideDrawe
                     <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'Home' ? ' selected': '') }}"
                         route="home/home-page" title="Home" tap="onNavigationItemTap">
                         <Label row="0" col="0" text="&#xf015;" class="fa" />
-                        <Label row="0" col="1" text="Home" class="p-r-10" />
+                        <Label row="0" col="1" text="Home" class="p-r-10 base-font" />
                     </GridLayout>
                     
                   <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'Start' ? ' selected': '') }}"
                       route="start/start-page" title="Start" tap="onNavigationItemTap">
                     <Label row="0" col="0" text="&#xf005;" class="fa" />
-                    <Label row="0" col="1" text="Quck Start" class="p-r-10" />
+                    <Label row="0" col="1" text="Quck Start" class="p-r-10 base-font" />
                   </GridLayout>
 
                   <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'Introduction' ? ' selected': '') }}"
                       route="intro/intro-page" title="Introduction" tap="onNavigationItemTap">
                     <Label row="0" col="0" text="&#xf02d;" class="fa" />
-                    <Label row="0" col="1" text="Learn More" class="p-r-10" />
+                    <Label row="0" col="1" text="Learn More" class="p-r-10 base-font" />
                   </GridLayout>
 
                     <StackLayout class="hr-light"></StackLayout>

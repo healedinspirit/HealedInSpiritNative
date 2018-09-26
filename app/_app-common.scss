@@ -4,6 +4,11 @@
 .fa {
    font-family: "FontAwesome";
 }
+
+.base-font {
+    font-family: 'Roboto-Regular';
+}
+
 // Common page class
 .page-content {
     
@@ -28,3 +33,14 @@ ActionBar .action-bar-title {
     horizontal-align: center;
 }
 
+.detail-container {
+    padding: 50px 40px 30px 40px;
+}
+
+.detail-hr {
+    margin-bottom: 30px;
+}
+
+.detail-treatment-item {
+    margin: auto 20px auto 20px;
+}
